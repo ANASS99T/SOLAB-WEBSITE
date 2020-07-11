@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alike&family=Lalezar&family=Luckiest+Guy&family=Merienda+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap');
+@import url('fonts/Lovelo-Black.eot');
+@import url('fonts/Myriad\ Web\ Pro.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+/* navbar */
+header{
+    background-color: white;
+}
+.navbar{
+   
+   padding: .8rem;
+}
+
+.navbar-nav li{
+    padding-right: 15px;
+}
+
+.nav-link{
+    font-size: 1.1em !important;
+}
+
+.nav-item a {
+  display: inline-block;
+  color: #424242;
+
+}
+
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus, .navbar-nav > li > a:active {
+  background-color: transparent;
+  color: #4caf50;
+}
+
+nav img{
+    width: 80%;
+}
+
+.dsc-full-logo{
+    display: none;
+    
+
+}
+
+.dsc-mini-logo{
+    display: block;
+
+}
+
+/* /* .navbar-toggler{
+    border-color: rgb(0, 123, 255);
+} */
+
+.navbar-toggler span:hover{
+    background-color: rgb(0, 123, 255);
+    border-color: rgb(0, 123, 255);
+} 
+
+@media screen and (min-width: 992px) {
+  .dsc-full-logo{
+    display: block;
+}
+
+.dsc-mini-logo{
+    display: none;
+}
+
+.nav-item>.nav-link {
+   border:150px;
+}
+
+}
+@media screen and (max-width: 992px) {
+ 
+  .navbar-nav {
+    border: 0 none;
+  }
+  .navbar-nav > li {
+    margin-left: 0;
+    padding: 0 0;
+  }
+  .navbar-nav > li > a {
+    color: #424242;
+    /* border-top: 1px solid; */
+    border-color: rgba(0, 0, 0, 0.1);
+  }
+  .navbar-nav > li > a:hover {
+    color: #4caf50;
+  }
+  
+ 
+  .navbar-nav > li.active > a {
+    color: #4caf50;
+  }
+
+  .background-logo{
+      display: none;
+      margin-bottom: 50px;
+  }
+  .image-col{
+      display: none;
+  }
+  .text-col{
+      padding-top: 20%;
+  }
+
+
+}
+
+
+/* @media screen and (min-width: 1200px) {
+    header{
+        padding-left: 95%;
+        padding-right: 95%;
+    }
+
+    
+} */
+@media screen and (min-width: 1200px) {
+    header{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .nav-item a {
+        font-size: 80%;
+
+    }
+}
+.background{
+    background-image: url("img/background\ theme.png");
+    margin-top: 50px;
+}
+
+.backgroundT{
+    width: 100%;
+    height: 595px;
+}
+
+.backgroundI h1{
+    text-align: center;
+     font-family: 'Russo One', sans-serif;
+     color: #007bff;
+     font-size: 3rem;
+}
+
+.backgroundI p{
+    text-align: center;
+    padding: .2rem;
+     font-family: 'Lovelo';
+     color: white;
+     font-size: 1.3rem;
+}
+
+.backgroundI a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 19px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.backgroundI a:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 1s;
+}
+
+.backgroundI a span{
+     position: absolute;
+     display: block;
+ }
+
+.backgroundI a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#2196f3);
+}
+
+.backgroundI a:hover span:nth-child(1){
+   
+    left: 100%;
+    transition: 1s;
+
+}
+.backgroundI a span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#2196f3);
+}
+
+.backgroundI a:hover span:nth-child(3){
+    right: 100%;
+    transition: 1s;
+transition-delay: 0.5s;
+}
+
+.backgroundI a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#2196f3);
+}
+
+.backgroundI a:hover span:nth-child(2){
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+
+}
+
+.backgroundI a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(18360deg,transparent,#2196f3);
+}
+
+.backgroundI a:hover span:nth-child(4){
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+
+}
+
+.backgroundI h4{
+    text-align: center;
+    font-family: 'Lovelo';
+    color: white;
+}
+
+.count{
+  margin: 40px 0;
+}
+
+.dot{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    
+}
+.dot span{
+    display: block;
+    font-family: 'Volkhov', serif;
+    font-size: 1.3em;
+    
+}
+.count{
+    text-align: center;
+    
+}
+
+.dot {
+  height: 80px;
+  width: 80px;
+  margin-right: 15px;
+  border: 1px solid;
+  border-radius: 10%;
+  display: inline-block;
+  font-family: 'Crimson Text', serif;
+
+  
+}
+
+#bcg-withe{
+    background: white;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#bcg-dark{
+    background: inherit;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* solab info */
+
+.what-is-solab{
+ 
+    padding: 20px;
+}
+
+.what-is-solab h3{
+    font-family: 'Lovelo';
+    color: #007bff;
+    
+}
+.what-is-solab p{
+    font-family: 'Myriad';
+    color: #5a5a5a;
+    font-size: 1.1em;
+}
+
+
+/* TOPICS */
+
+
+
+.topics h3{
+    font-family: 'Lovelo';
+    color: #007bff; 
+}
+
+.topics h5{
+    font-family: 'Volkhov', serif;
+    text-align: left;
+    color: #666666;
+    
+}
+
+.topics p{
+    font-family: 'Myriad';
+    text-align: left;
+    margin-left: 25px;
+    color: black;
+   
+   
+}
+
+.topics p img{
+    width: 40%;
+    
+}
+
+
+
+
+/* REGISTER - SUBMITION - TECHNOLOGIES */
+
+
+
+.regi img, .sub img{
+    width: 40%;  
+}
+
+
+.register h3, .sub h3, .tech h3{
+    font-family: 'Lovelo';
+    color: #007bff;
+    text-align: center;
+}
+
+.register p{
+    margin-top: 22px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-family: 'Myriad';
+    color: #5a5a5a;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.registerNow a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 19px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.registerNow a:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    
+}
+
+.registerNow a span{
+     position: absolute;
+     display: block;
+    
+ }
+
+
+.sub p{
+    margin: 20px;
+    font-family: 'Myriad';
+    color: #5a5a5a;
+    font-size: 1.2em;
+    text-align: left;
+ }
+
+p.tech-text{
+    margin: 10px;
+    font-family: 'Myriad';
+    color: #5a5a5a;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.register h4{
+    text-align: center;
+}
+
+
+.reg-sub-logo{
+    margin-left: 50px;
+}
+
+p.reg-sub-logo{
+    text-align: center;
+}
+ul#tech-list li{
+    display: inline;
+    padding: 5px;
+}
+
+
+
+/* Evaluation Criteria */
+.criteria-title h1{
+    font-family: 'Volkhov', serif;
+    text-align: center;
+    color: #666666;
+    padding-top: 2%;
+}
+
+.criteria-content{
+    padding: 20px;
+}
+.criteria-content h4{
+    font-family: 'Volkhov', serif;
+    text-align: left;
+    color: #666666;
+    margin-left: 4%;
+    margin-bottom: -2%;
+}
+
+.criteria-content hr{
+    width: 20%;
+    margin-left: 4.5%;
+}
+
+.criteria-content li{
+color: #666666;
+
+}
+
+
+/* Prizes */
+
+.prizes{
+ 
+    padding: 20px;
+}
+
+.prizes h3{
+    font-family: 'Lovelo';
+    color: #007bff;
+    
+}
+.prizes p{
+    font-family: 'Myriad';
+    color: #5a5a5a;
+    font-size: 1.1em;
+}
