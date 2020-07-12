@@ -16,14 +16,11 @@
     <script src="control.js"></script>    
 </head>
 
-
 <body>
-    
-        
-    
+      
     <!-- NAVBAR -->
     <header class="fixed-top">
-    <nav class="navbar navbar-expand-md " id="opacity">
+    <nav class="navbar navbar-expand-md " >
         <div class="container">
             <a href="#" class="navbar-brand">
                 <img src="img/DSC UH1 LOGO mini.png" alt="dsc mini logo" class="dsc-mini-logo">
@@ -41,8 +38,8 @@
                             aria-haspopup="true" aria-expanded="false">
                             DSC UH1
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Login</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                            <button class="dropdown-item" id="login" type="submit">Login</button>
                             <a class="dropdown-item" href="#">Join DSC UH1</a>
                         </div>
                     </li>
@@ -54,7 +51,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">WHAT is SOLAB ?</a>                          
                             <a class="dropdown-item" href="#">Topics</a>
-                            <a class="dropdown-item" href="#">Register</a>
+                            <a class="dropdown-item" href="#register">Register</a>
                             <a class="dropdown-item" href="#">Prizes</a>
                             <a class="dropdown-item" href="#">Evaluation Criteria</a>
                             <a class="dropdown-item" href="#">Common questions</a>
@@ -85,7 +82,7 @@
                         SOLAB
                     </h1>
                     <p class="lead text-center">Your <strong>ideas</strong> can <strong>define</strong> your <Strong>future</Strong></p>
-                    <h1><a href="#">
+                    <h1><a href="#register">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -206,28 +203,24 @@
 </fieldset>
 <!-- REGISTER - SUBMITION - TECHNOLOGIES --> 
 <fieldset id="bcg-withe">
-    <div class="container ">
+    <div class="container " id="register">
         <div class="row justify-content-between ">
             <div class="col-md-6 col-sm-12 align-self-center regi">
-                <fieldset class="register">
+                <fieldset class="register" >
                     <h3>
                         Register
                     </h3>
                     <p class="reg-sub-logo ">
                         <img src="img/hand.png" alt="register logo">
                     </p>
-                    <p class="register-text">
+                    <p class="register-text" >
                         <b>Any student</b> from the university <b>HASSAN 1</b> want to participate can form a team of <b>at least two members</b> (<i>maximum members is 4</i>).
                         <br>The team has to be registered under a name and have at least one idea of a solution.
                         <br>(Only the leader of the team can register)
                         <br>
-                        <h4 class="registerNow"><a href="#">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
+                        <h4 class="registerNow"  ><button id="joinB"  type="submit">                                
                                 REGISTER NOW
-                            </a></h4>
+                        </button></h4>
                     </p>
                     
                 </fieldset>
@@ -376,6 +369,209 @@
     </div>
 </fieldset>
 
+<div class="bg-modal-join">
+    <!-- modal content -->
+    <div class="modal-contents-join">
+        <!-- And hadi plus li ktmtel x m gonna rotate it f css -->
+        <div class="close-join">+</div>
+        <!-- Form where there is inputs -->
+        <form action="" >
+            <!-- Logo -->
+            <img src="img/DSC logo.png" width=80px height=80px/>
+            <!-- Text o sf Hhhh -->
+            <h3>Please sign up</h3>
+            <br/>
+            <!-- Start of fking inputs -->
+            <div class="input-group mb-3 ">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">
+                      <!-- Mhm finma tban lik svg it's a fking icon -->
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="First name" aria-label="fname" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Last name" aria-label="lname" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-briefcase-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+                        <path fill-rule="evenodd" d="M0 4.5A1.5 1.5 0 0 1 1.5 3h13A1.5 1.5 0 0 1 16 4.5v1.384l-7.614 2.03a1.5 1.5 0 0 1-.772 0L0 5.884V4.5zm5-2A1.5 1.5 0 0 1 6.5 1h3A1.5 1.5 0 0 1 11 2.5V3h-1v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V3H5v-.5z"/>
+                    </svg>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Sector" aria-label="sector" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-at" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z"/>
+                    </svg>
+                  </span>
+                </div>
+                <input type="email" class="form-control" placeholder="Email" aria-label="email" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        <path fill-rule="evenodd" d="M2 15v-1c0-1 1-4 6-4s6 3 6 4v1H2zm6-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Pseudo" aria-label="pseudo" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-lock-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z"/>
+                        <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
+                    </svg>
+                  </span>
+                </div>
+                <input type="password" class="form-control" placeholder="Password" aria-label="password" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-lock-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z"/>
+                        <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
+                    </svg>
+                  </span>
+                </div>
+                <input type="password" class="form-control" placeholder="Confirm Password" aria-label="cpassword" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="inputGroupSelect01">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-people-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                    </svg>
+                  </label>
+                </div>
+                <select class="custom-select" id="inputGroupSelect01" onclick="makevisible(value)">
+                  <option selected>Number of members in your team</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </div>
+              <div class="input-group mb-3"  id="one">
+                <div class="input-group-prepend" >
+                  <span class="input-group-text">
+                      <!-- Mhm finma tban lik svg it's a fking icon -->
+                    <svg width="1em" height="1em" viewBox="0 0 16 16"  class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                  </span>
+                </div>
+                <input type="text" class="form-control"  placeholder="Full name of first member" aria-label="1" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3" id="two">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" >
+                      <!-- Mhm finma tban lik svg it's a fking icon -->
+                    <svg width="1em" height="1em" viewBox="0 0 16 16"  class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                  </span>
+                </div>
+                <input type="text" class="form-control"  placeholder="Full name of second member" aria-label="2" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3 " id="three" >
+                <div class="input-group-prepend">
+                  <span class="input-group-text" >
+                      <!-- Mhm finma tban lik svg it's a fking icon -->
+                    <svg width="1em" height="1em" viewBox="0 0 16 16"  class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                  </span>
+                </div>
+                <input type="text" class="form-control" id='3' placeholder="Full name of third member" aria-label="3" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3" id="four" >
+                <div class="input-group-prepend">
+                  <span class="input-group-text" >
+                      <!-- Mhm finma tban lik svg it's a fking icon -->
+                    <svg width="1em" height="1em" viewBox="0 0 16 16"  class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                  </span>
+                </div>
+                <input type="text" class="form-control" id='4' placeholder="Full name of fourth member" aria-label="4" aria-describedby="basic-addon1">
+            </div>
+            <div class="mb-3">                
+                <textarea class="form-control" id="validationTextarea" placeholder="In a few words explain your idea or project "  required></textarea>    
+            </div>
+            <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">I agree to UHI <a href=#>privacy policy</a>.</label>
+            </div>     
+              <br/>
+              <!-- Button to submit -->
+              <button id="join" class="btn rounded-pill px-4 py-.2 mx-1" type="submit">Submit</button>
+              <!-- end of inputs -->
+        </form>
+</div>
+<div class="bg-modal-login">
+    <!-- modal content -->
+    <div class="modal-contents-login">
+        <!-- And hadi plus li ktmtel x m gonna rotate it f css -->
+        <div class="close-login">+</div>
+        <!-- Form where there is inputs -->
+        <form action="">
+            <!-- Logo -->
+            <img src="img/DSC logo.png" width=80px height=80px/>
+            <!-- Text o sf Hhhh -->
+            <h3>Please sign in</h3>
+            <br/>
+            <!-- Start of fking inputs -->                                    
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        <path fill-rule="evenodd" d="M2 15v-1c0-1 1-4 6-4s6 3 6 4v1H2zm6-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Pseudo" aria-label="pseudo" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-lock-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z"/>
+                        <path fill-rule="evenodd" d="M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z"/>
+                    </svg>
+                  </span>
+                </div>
+                <input type="text" class="form-control" placeholder="Password" aria-label="password" aria-describedby="basic-addon1">
+            </div>                      
+              <br/>
+              <!-- Button to submit -->
+              <button  class="btn rounded-pill px-4 py-.2 mx-1" type="submit">login</button>
+              <!-- end of inputs -->
+        </form>
+    </div>
+</div>
 
 
 
@@ -425,8 +621,74 @@
 
 
 
-
-
+<script>
+    // Part add name of members
+    
+    function makevisible(value){
+        var tabshow;
+        switch(value){
+            case '1':
+                tabshow = document.querySelectorAll('#one');
+                tabdelete = document.querySelectorAll('#two,#three,#four');
+                document.querySelector('.modal-contents-join').style.height ="840px";                
+                break;
+            case '2':
+                tabshow = document.querySelectorAll('#one,#two');
+                tabdelete = document.querySelectorAll('#three,#four');
+                document.querySelector('.modal-contents-join').style.height ="900px";                
+                break;
+            case '3':
+                tabshow = document.querySelectorAll('#one,#two,#three');
+                tabdelete = document.querySelectorAll('#four');
+                document.querySelector('.modal-contents-join').style.height ="960px";                
+                break;
+            case '4':
+                tabshow = document.querySelectorAll('#one,#two,#three,#four');
+                tabdelete=[];
+                document.querySelector('.modal-contents-join').style.height ="1020px";                
+                break;
+        }
+        for (var i = 0; i < tabshow.length; i++){
+         tabshow[i].style.display = "flex";
+        }
+        for (var i = 0; i < tabdelete.length; i++){
+         tabdelete[i].style.display = "none";
+        }
+    }
+    
+// getElementById bach yjbed li 3ndo idloginB 
+// addEventListener bach ytssnet 
+// click bach definit layach aytssnet
+var i=0;
+document.getElementById('joinB').addEventListener("click", function() {
+    i=0;
+    window.scroll(0,0);
+    window.addEventListener("scroll", function scrolljoin() {    
+    var top = this.scrollY;
+    if(top>500 && i==0){
+        window.scroll(0,500);
+    }
+    });
+    // ktmodifier diplay li kayna fl class bg-modal ktreje3ha flex when they click on the button sign up (bach t afficher page dyal sign up)
+    document.querySelector('.bg-modal-join').style.display = "flex"; 
+});
+// Same bnssba ldik x bach y5rej utilisateur fach y dire click 3liha
+document.querySelector('.close-join').addEventListener("click", function() {
+    // nfss principe ktreje3 display none
+	document.querySelector('.bg-modal-join').style.display = "none";  
+    i=1; 
+});
+// part dyal login
+document.getElementById('login').addEventListener("click", function login() {
+	document.querySelector('.bg-modal-login').style.display = "flex";
+    // document.write("Success");
+});
+    
+	
+document.querySelector('.close-login').addEventListener("click", function() {
+	document.querySelector('.bg-modal-login').style.display = "none";
+});
+</script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

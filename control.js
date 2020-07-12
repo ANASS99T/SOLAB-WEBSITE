@@ -19,5 +19,4 @@ var x = setInterval(function () {
         clearInterval(x);
     }
 }, 1000);
-
-
+// Part add name of members
