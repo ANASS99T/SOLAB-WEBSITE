@@ -542,6 +542,21 @@ color: #666666;
     color: #5a5a5a;
     font-size: 1.1em;
 }
+
+#staticBackdrop h1,
+#staticBackdrop h2,
+#login h1,
+#login h2,
+#sign-up h1,
+#sign-up h2
+{
+    text-align: center;
+} 
+
+
+
+
+/* Register :Number of members in the team */
 #one{
     display:none;
 }
@@ -554,33 +569,4 @@ color: #666666;
 #four{
     display:none;
 }
-/* Part dyal sign up popup (modal)*/
-/* textarea {
-    resize: none;
-}
-#one{
-    display:none;
-}
-#two{
-    display:none;
-}
-#three{
-    display:none;
-}
-#four{
-    display:none;
-}
-#login,#join{
-    background-color:#9966FF ;
-    color:white;
-    border:1px solid white;
-}
-#login:hover,#join:hover{
-    background-color:white ;
-    color:#9966FF;
-    border:1px solid #9966FF;
-}
-a[ id= "goto" ]:target ~ #register {
-    -webkit-transform: translateY( 0px);
-    transform: translateY( 0px );
-} */
+

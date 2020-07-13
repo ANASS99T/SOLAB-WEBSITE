@@ -1,4 +1,0 @@
-register:
-members full name + filiere
-decribe
-join->button join
