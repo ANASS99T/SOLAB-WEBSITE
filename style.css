@@ -441,10 +441,20 @@ transition-delay: 0.5s;
     overflow: hidden;
     transition: 0.2s;
 }
-html
-{
-    /* scroll-behavior: initial; */
+/* Register :Number of members in the team */
+#one{
+    display:none;
 }
+#two{
+    display:none;
+}
+#three{
+    display:none;
+}
+#four{
+    display:none;
+}
+
 
 .registerNow button:hover{
     color: #255784;
@@ -556,17 +566,4 @@ color: #666666;
 
 
 
-/* Register :Number of members in the team */
-#one{
-    display:none;
-}
-#two{
-    display:none;
-}
-#three{
-    display:none;
-}
-#four{
-    display:none;
-}
 
