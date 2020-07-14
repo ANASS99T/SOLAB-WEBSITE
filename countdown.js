@@ -1,6 +1,6 @@
 
 
-var count = new Date("jan 1,2021 00:00:00").getTime();
+var count = new Date("jul 20,2020 00:00:00").getTime();
 var x = setInterval(function () {
     var now = new Date().getTime();
     var d = count - now;
@@ -14,6 +14,11 @@ var x = setInterval(function () {
     document.getElementById("hours").innerHTML = hours;
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
+
+    document.getElementById("days1").innerHTML = days;
+    document.getElementById("hours1").innerHTML = hours;
+    document.getElementById("minutes1").innerHTML = minutes;
+    document.getElementById("seconds1").innerHTML = seconds;
 
     if (d <= 0) {
         clearInterval(x);

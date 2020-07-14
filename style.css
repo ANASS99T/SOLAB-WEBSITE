@@ -3,9 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Alike&family=Lalezar&family=Luckiest+Guy&family=Merienda+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap');
-@import url('fonts/Lovelo-Black.eot');
-@import url('fonts/Myriad\ Web\ Pro.ttf');
 @import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+
 
 
 /*---Firefox Bug Fix --*/
@@ -168,14 +167,6 @@ nav img{
 }
 
 
-/* @media screen and (min-width: 1200px) {
-    header{
-        padding-left: 95%;
-        padding-right: 95%;
-    }
-
-    
-} */
 @media screen and (min-width: 1200px) {
     header{
         padding-left: 10%;
@@ -226,7 +217,7 @@ nav img{
 .backgroundI a:hover{
     color: #255784;
     background: #2196f3;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    box-shadow: 0 0 2px #2196f3, 0 0 8px #2196f3, 0 0 15px #2196f3;
     transition-delay: 1s;
 }
 
@@ -246,7 +237,7 @@ nav img{
 .backgroundI a:hover span:nth-child(1){
    
     left: 100%;
-    transition: 1s;
+    transition: 0.5s;
 
 }
 .backgroundI a span:nth-child(3){
@@ -259,7 +250,7 @@ nav img{
 
 .backgroundI a:hover span:nth-child(3){
     right: 100%;
-    transition: 1s;
+    transition: 0.5s;
 transition-delay: 0.5s;
 }
 
@@ -273,7 +264,7 @@ transition-delay: 0.5s;
 
 .backgroundI a:hover span:nth-child(2){
     top: 100%;
-    transition: 1s;
+    transition: 0.5s;
     transition-delay: 0.25s;
 
 }
@@ -288,7 +279,7 @@ transition-delay: 0.5s;
 
 .backgroundI a:hover span:nth-child(4){
     bottom: 100%;
-    transition: 1s;
+    transition: 0.5s;
     transition-delay: 0.75s;
 
 }
@@ -302,6 +293,7 @@ transition-delay: 0.5s;
 .count{
   margin: 40px 0;
 }
+
 
 .dot{
     display: inline-block;
@@ -441,25 +433,13 @@ transition-delay: 0.5s;
     overflow: hidden;
     transition: 0.2s;
 }
-/* Register :Number of members in the team */
-#one{
-    display:none;
-}
-#two{
-    display:none;
-}
-#three{
-    display:none;
-}
-#four{
-    display:none;
-}
+
 
 
 .registerNow button:hover{
     color: #255784;
     background: #2196f3;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    box-shadow: 0 0 2px #2196f3, 0 0 8px #2196f3, 0 0 15px #2196f3;
     
 }
 
@@ -503,6 +483,49 @@ ul#tech-list li{
     padding: 5px;
 }
 
+
+/* REGISTER MODAL POPUP */
+
+.countdow2 h4{
+    text-align: center;
+    padding: 25px;
+}
+
+.dot2{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-top: 15px;
+    color: black;
+    
+}
+.dot2 span{
+    display: block;
+    font-family: 'Volkhov', serif;
+    font-size: 1.3em;
+    
+}
+.dot2 {
+  height: 80px;
+  width: 80px;
+  margin-right: 15px;
+  border: 1px solid;
+  border-radius: 30%;
+  display: inline-block;
+  font-family: 'Crimson Text', serif;
+
+}
+
+.modal-content {
+    border-radius: 10px;
+    border: 1px solid #007bff;
+}
+
+.btn-outline-primary{
+    border-radius: 7px;
+}
 
 
 /* Evaluation Criteria */
