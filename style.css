@@ -588,5 +588,34 @@ color: #666666;
 
 
 
+ /* Common questions  */
+
+
+.CQ{
+ 
+    padding: 20px;
+}
+
+.CQ h3{
+    font-family: 'Lovelo';
+    color: #007bff;
+    
+}
+
+.CQ button{
+    font-size: 20px;
+    color: #5a5a5a;
+    font-family: 'Volkhov', serif;
+    
+}
+.CQ button:hover{
+    color: #007bff;
+}
+
+.CQ .card-body{
+    font-size: 18px;
+    margin-left: 50px;
+    font-family: 'Myriad';
+}
 
 
