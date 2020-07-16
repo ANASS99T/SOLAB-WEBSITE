@@ -128,6 +128,11 @@ nav img{
    border:150px;
 }
 
+  .About img{
+      width: 100%;
+      
+  }
+
 }
 @media screen and (max-width: 992px) {
  
@@ -163,10 +168,7 @@ nav img{
       padding-top: 20%;
   }
 
-  .About img{
-      width: 80%;
-      margin-left: 10%;
-  }
+
 
 }
 
