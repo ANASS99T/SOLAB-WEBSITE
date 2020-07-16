@@ -5,6 +5,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
 
+@font-face {font-family: "Myriad Pro";
+    src: url("http://db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.svg#Myriad Pro") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Lovelo";
+    src: url("http://db.onlinewebfonts.com/t/c767626538286cc0ebb99ed1ac50dd08.eot"); /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/c767626538286cc0ebb99ed1ac50dd08.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("http://db.onlinewebfonts.com/t/c767626538286cc0ebb99ed1ac50dd08.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/c767626538286cc0ebb99ed1ac50dd08.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/c767626538286cc0ebb99ed1ac50dd08.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("http://db.onlinewebfonts.com/t/c767626538286cc0ebb99ed1ac50dd08.svg#Lovelo") format("svg"); /* iOS 4.1- */
+
+}
 
 
 /*---Firefox Bug Fix --*/
