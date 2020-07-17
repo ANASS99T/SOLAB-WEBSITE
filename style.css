@@ -215,7 +215,7 @@ nav img{
     color: #2196f3;
     letter-spacing: 4px;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 22px;
     overflow: hidden;
     transition: 0.2s;
 }
@@ -290,10 +290,11 @@ transition-delay: 0.5s;
 
 }
 
-.backgroundI h4{
+.backgroundI h3{
     text-align: center;
     font-family: 'Lovelo';
     color: white;
+    margin-top: 10%;
 }
 
 .count{
@@ -493,7 +494,7 @@ ul#tech-list li{
 
 /* REGISTER MODAL POPUP */
 
-.countdow2 h4{
+/* .countdow2 h4{
     text-align: center;
     padding: 25px;
 }
@@ -523,17 +524,39 @@ ul#tech-list li{
   display: inline-block;
   font-family: 'Crimson Text', serif;
 
-}
+} */
 
 .modal-content {
     border-radius: 10px;
     border: 1px solid #007bff;
 }
 
+.modal-header h1{
+    margin-left: 18%;
+}
+
+.modal-header h3{
+    margin-top: -3%;
+    text-align: center;
+    color: #666666;
+    
+}
+
+
 .btn-outline-primary{
     border-radius: 7px;
 }
 
+.modal-body p{
+    font-family: 'Myriad Pro';
+    color: #5a5a5a;
+    font-size: 1.2em;
+}
+
+.modal-body b{
+    color: black;
+    font-size: 1em;
+}
 
 /* Evaluation Criteria */
 .criteria-title h1{
@@ -580,7 +603,7 @@ color: #666666;
 .prizes p{
     font-family: 'Myriad Pro';
     color: #5a5a5a;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 #staticBackdrop h1,
