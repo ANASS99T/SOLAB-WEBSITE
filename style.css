@@ -4,7 +4,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
-
+@font-face{
+    font-family:"lovelo-black";
+    src:url("https://candyfonts.com/wp-data/2019/03/05/29769/Lovelo Black.otf") format("woff"),
+    url("https://candyfonts.com/wp-data/2019/03/05/29769/Lovelo Black.otf") format("opentype"),
+    url("https://candyfonts.com/wp-data/2019/03/05/29769/Lovelo Black.otf") format("truetype");
+}
 
 
 /*---Firefox Bug Fix --*/
@@ -203,9 +208,9 @@ nav img{
 .backgroundI p{
     text-align: center;
     padding: .2rem;
-     font-family: 'Lovelo';
-     color: white;
-     font-size: 1.3rem;
+    font-family:"lovelo-black";
+    color: white;
+    font-size: 1.3rem;
 }
 
 .backgroundI a{
@@ -292,7 +297,7 @@ transition-delay: 0.5s;
 
 .backgroundI h3{
     text-align: center;
-    font-family: 'Lovelo';
+    font-family:"lovelo-black";
     color: white;
     margin-top: 10%;
 }
@@ -357,7 +362,7 @@ transition-delay: 0.5s;
 }
 
 .what-is-solab h3{
-    font-family: 'Lovelo';
+    font-family:"lovelo-black";
     color: #007bff;
     
 }
@@ -374,7 +379,7 @@ transition-delay: 0.5s;
 
 
 .topics h3{
-    font-family: 'Lovelo';
+    font-family:"lovelo-black";
     color: #007bff; 
 }
 
@@ -412,7 +417,7 @@ transition-delay: 0.5s;
 
 
 .register h3, .sub h3, .tech h3{
-    font-family: 'Lovelo';
+    font-family:"lovelo-black";
     color: #007bff;
     text-align: center;
 }
@@ -596,7 +601,7 @@ color: #666666;
 }
 
 .prizes h3{
-    font-family: 'Lovelo';
+    font-family:"lovelo-black";
     color: #007bff;
     
 }
@@ -627,7 +632,7 @@ color: #666666;
 }
 
 .CQ h3{
-    font-family: 'Lovelo';
+    font-family:"lovelo-black";
     color: #007bff;
     
 }
@@ -655,7 +660,7 @@ color: #666666;
 }
 
 .About h4{
-    font-family: 'Lovelo';
+    font-family:"lovelo-black";
     /* color: #007bff; */
     color: #333333;
     
