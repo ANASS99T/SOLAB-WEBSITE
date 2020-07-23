@@ -417,7 +417,7 @@ transition-delay: 0.5s;
 .register h3, .sub h3, .tech h3{
     font-family:"Lovelo-Black";
     color: #007bff;
-    text-align: center;
+    text-align: left;
 }
 
 .register p{
@@ -428,7 +428,7 @@ transition-delay: 0.5s;
     font-family: 'Myriad Pro';
     color: #5a5a5a;
     font-size: 1.2em;
-    text-align: center;
+    text-align: left;
 }
 
 .registerNow button{
