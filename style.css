@@ -570,7 +570,7 @@ ul#tech-list li{
 }
 
 .criteria-content{
-    padding: 20px;
+    padding: 15px;
 }
 .criteria-content h4{
     font-family: 'Volkhov', serif;
@@ -588,6 +588,13 @@ ul#tech-list li{
 .criteria-content li{
 color: #666666;
 
+}
+
+.criteria-content p{
+    font-family: 'Volkhov', serif;
+    text-align: left;
+    color: #666666;
+    font-size: 13pt;
 }
 
 
